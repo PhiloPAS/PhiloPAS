@@ -93,7 +93,7 @@ engineering_values:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake-dark.svg" />
+  <img width="100%" alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
@@ -105,6 +105,9 @@ engineering_values:
 <p>
   <a href="https://github.com/PhiloPAS">
     <img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://id.linkedin.com/in/philo-satriya-340272289">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square" alt="LinkedIn" />
   </a>
 </p>
 
