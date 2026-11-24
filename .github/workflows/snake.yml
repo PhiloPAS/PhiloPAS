@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/snake.yml'
+      - '.github/scripts/style-snake.py'
       - 'README.md'
 
 permissions:
@@ -19,15 +20,22 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#64748b
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#cbd5e1
+            dist/github-contribution-grid-snake.svg?palette=github-light
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Style snake segments
+        run: python3 .github/scripts/style-snake.py dist/github-contribution-grid-snake{,-dark}.svg
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4

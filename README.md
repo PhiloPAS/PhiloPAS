@@ -18,6 +18,20 @@
 
 ---
 
+## Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
 ## About
 
 Computer Science student at **Universitas Indonesia** with a strong interest in **software engineering, full-stack development, and scalable digital systems**.
@@ -82,20 +96,6 @@ engineering_values:
 
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=PhiloPAS&bg_color=00000000&color=8b949e&line=94a3b8&point=cbd5e1&area=true&area_color=64748b&hide_border=true" alt="GitHub contribution activity graph" />
-</div>
-
----
-
-## Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/PhiloPAS/PhiloPAS/output/github-contribution-grid-snake.svg" />
-</picture>
-
 </div>
 
 ---
